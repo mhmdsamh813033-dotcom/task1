@@ -9,52 +9,30 @@ A.Q2
 A.Q3
 
 مثلا زى D بنستخدمها بنحول الاعداد الطبيعية لأرقام ديسمال
-namespace firstproject
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+
             int x = 5;
             
             Console.WriteLine($"equation : {x}  = {x:d3} ");
 
-        }
-    }
-}
+
 output : equation : 5 = 005
 
 
 
 او ال P بنستخدمها بنحول الرقم إلى نسبة مئوية يعنى بيضرب الرقم فى 100 مثلا زى .20 إلى 20%
-namespace firstproject
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            double x = .25;
-            
+
+            double x = 5            
             Console.WriteLine($"equation : {x}  = {x:p} ");
 
-        }
-    }
-}
+            
 output: equation : 0.25  = 25.00%
 
 
 او ال N بنستخدمها انها بتعمل للرقم لو كبير  فواصل الالاف ده غير الفواصل العشرية مع تحديد ظهور كام خانة من الأرقام العشرية لو موجودة مع تقريبها
 
-namespace firstproject
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+
             double x = 1234567.578;
             
             Console.WriteLine($"equation : {x}  = {x:n2} ");
-        }
-    }
-}
+
 output: equation : 1234567.578  = 1,234,567.58
