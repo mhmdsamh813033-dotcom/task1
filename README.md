@@ -21,7 +21,7 @@ output : equation : 5 = 005
 
 او ال P بنستخدمها بنحول الرقم إلى نسبة مئوية يعنى بيضرب الرقم فى 100 مثلا زى .20 إلى 20%
 
-            double x = 5            
+            double x = 0.25            
             Console.WriteLine($"equation : {x}  = {x:p} ");
 
             
